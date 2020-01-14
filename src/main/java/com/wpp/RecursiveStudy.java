@@ -57,6 +57,7 @@ public class RecursiveStudy {
         return leftMax > rightMax ? leftMax : rightMax;
     }
 
+
     /**
      * 最大子串和
      *
@@ -110,5 +111,9 @@ public class RecursiveStudy {
             rightMax = rSum > rightMax ? rSum : rightMax;
         }
         return leftMax + rightMax;
+    }
+
+    public int maxSubArrSumN2(int[] arr) {
+        return 0;
     }
 }
